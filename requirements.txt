@@ -1,4 +1,4 @@
-# Python 3.12.13
+# Python 3.12.3
 lightgbm==4.6.0
 xgboost==3.4.0
 pandas==2.2.3
