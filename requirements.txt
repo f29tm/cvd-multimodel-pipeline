@@ -1,3 +1,5 @@
+# Python 3.12.3 (recorded in the notebook's language_info metadata).
+#
 # Pinned to the versions used to produce the results reported in the paper.
 lightgbm==4.7.0
 xgboost==3.4.1
