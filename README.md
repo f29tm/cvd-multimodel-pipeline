@@ -21,6 +21,8 @@ Kaggle Cardiovascular Disease dataset (Sulianova, 2019) — 70,000 records, semi
 
 https://www.kaggle.com/datasets/sulianova/cardiovascular-disease-dataset
 
+Download `cardio_train.csv` from the link above and place it in the same directory as the
+notebook before running it. The file is not redistributed here.
 
 ## Pipeline
 
@@ -57,21 +59,14 @@ Differences between models are smaller than the fold-to-fold variation observed 
 
 ```bash
 pip install -r requirements.txt
+# place cardio_train.csv in this directory first — see Dataset above
 jupyter notebook CVD_Prediction.ipynb
 ```
 
 All randomness is seeded with `random_state=42`.
 
-### Recording exact versions
-
-To pin the remaining packages to the versions in your environment, run this in a notebook cell and paste the output into `requirements.txt`:
-
-```python
-import pandas, numpy, sklearn, matplotlib, seaborn, lightgbm, xgboost
-for m in (pandas, numpy, sklearn, matplotlib, seaborn, lightgbm, xgboost):
-    print(f"{m.__name__}=={m.__version__}")
-```
-
 ## Licence
 
-Released for academic use. Please cite the paper if you build on this work.
+Code in this repository is released under the MIT Licence — see `LICENSE`. The licence covers
+the code only; the Cardiovascular Disease dataset is distributed by Kaggle under its own terms.
+Please cite the paper if you build on this work.
