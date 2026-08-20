@@ -21,7 +21,6 @@ Kaggle Cardiovascular Disease dataset (Sulianova, 2019) — 70,000 records, semi
 
 https://www.kaggle.com/datasets/sulianova/cardiovascular-disease-dataset
 
-The dataset is not redistributed here. Download it from Kaggle before running the notebook.
 
 ## Pipeline
 
